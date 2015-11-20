@@ -1,0 +1,37 @@
+#headline_background {
+	background-color:#000;
+	filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity: 0.85;
+	width: 360px;
+	height:500px;
+	z-index:5;
+	position:relative;
+	top:35px;
+	left:390px;
+}
+#headline {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color: #FFF;
+z-index: 7;
+position: absolute;
+top: 175px;
+left: 52%;
+width: 345px;
+line-height:150%;
+}
+
+#headline_shadow {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color:#000;
+z-index: 6;
+position: absolute;
+top: 178px;
+left: 52.1%;
+width: 345px;
+line-height:150%;
+}

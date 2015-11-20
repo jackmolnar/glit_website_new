@@ -1,0 +1,1 @@
+<node label='_files' url='../_files/' isBranch='true' allowed=''><node label='media' url='../_files/media/' isBranch='true' allowed='media'></node><node label='docs' url='../_files/docs/' isBranch='true' allowed='documents'></node><node label='images' url='../_files/images/' isBranch='true' allowed='images'></node></node>

@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /_admin/
+Disallow: /_archive/
+Disallow: /_face/
+Disallow: /_scripts/ 
+Disallow: /_templates/
+Disallow: /_careers/
+Disallow: /cgi-bin/
+Disallow: /directions/
+Disallow: /gallery/
+Disallow: /global_includes/ 
+Disallow: /newsevents/
+Disallow: /old_site/
+Disallow: /privacy/
+Disallow: /program_includes/
+Disallow: /search/ 
+Disallow: /site map/
+Disallow: /student gallery/ 
+Disallow: /test home/ 
+Disallow: /_build_search_db.php
+Disallow: /_globalvars.php
+Disallow: /apply_online.php
+Disallow: /campus_tour.php
+Disallow: /contact.php
+Disallow: /request_more_information.php
+Disallow: /schedule_a_tour.php
+Disallow: /reachlocal.php
+Disallow: /reachlocal_display.php
+Disallow: /goerie.php
+Disallow: /careers/
+Disallow: /stafffaculty.php
+Disallow: /employer_form.php

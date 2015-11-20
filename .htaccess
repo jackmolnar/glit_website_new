@@ -1,0 +1,94 @@
+
+AddHandler php5-script .php
+
+
+Options +FollowSymLinks
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(.*)\.erieit\.edu$ [NC]
+RewriteRule ^(.*)$ http://www.erieit.edu/$1 [R=301,L]
+
+
+Redirect 301 /reachlocal.php http://www.erieit.edu/
+Redirect 301 /links_of_interest.php http://www.erieit.edu/
+
+Redirect 301 /business_information_management.php http://www.erieit.edu/training_programs/business_information_management
+Redirect 301 /multimedia_graphic_design.php http://www.erieit.edu/training_programs/multimedia_graphic_design
+Redirect 301 /network_database_professional.php http://www.erieit.edu/training_programs/network_database_professional
+Redirect 301 /biomedical_equipment_technology.php http://www.erieit.edu/training_programs/biomedical_equipment_technology
+Redirect 301 /electronics_technician.php http://www.erieit.edu/training_programs/electronics_technician
+Redirect 301 /computer_electronics_engineering_technology.php http://www.erieit.edu/training_programs/electronics_engineering_technology
+Redirect 301 /cnc_machinist_technician.php http://www.erieit.edu/training_programs/cnc_machinist_technician
+Redirect 301 /electrician.php http://www.erieit.edu/training_programs/electrician
+Redirect 301 /maintenance_technician.php http://www.erieit.edu/training_programs/industrial_maintenance_mechatronics
+Redirect 301 /training_programs/maintenance_technician http://www.erieit.edu/training_programs/industrial_maintenance_mechatronics
+Redirect 301 /rhvac_technology.php http://www.erieit.edu/training_programs/rhvac_technology
+Redirect 301 /welding_technology.php http://www.erieit.edu/training_programs/welding_technology
+
+Redirect 301 /why_eit.php http://www.erieit.edu/about_eit
+Redirect 301 /admissions_requirements.php http://www.erieit.edu/admissions
+
+Redirect 301 /programs.php http://www.erieit.edu/training_programs
+Redirect 301 /computers.php http://www.erieit.edu/training_programs
+Redirect 301 /electronics.php http://www.erieit.edu/training_programs
+Redirect 301 /manufacturing.php http://www.erieit.edu/training_programs
+Redirect 301 /career_planning_placement.php http://www.erieit.edu/job_placement
+Redirect 301 /continuing_education.php http://www.eit-continuinged.com/
+
+Redirect 301 /Student_of_the_Month_-_Chris_Mitchell.html http://www.erieit.edu/blog/Student_of_the_Month_-_Chris_Mitchell
+Redirect 301 /Purple_Martin_Project_Update.html http://www.erieit.edu/blog/Purple_Martin_Project_Update
+Redirect 301 /Student_of_the_Month_-_Hiram_Bonner.html http://www.erieit.edu/blog/Student_of_the_Month_-_Hiram_Bonner
+Redirect 301 /Veterans_Resource_Luncheon.html http://www.erieit.edu/blog/Veterans_Resource_Luncheon
+Redirect 301 /HVAC_Department_Updates.html http://www.erieit.edu/blog/HVAC_Department_Updates
+Redirect 301 /Student_of_the_Month_-_Jeffrey_Kinnear.html http://www.erieit.edu/blog/Student_of_the_Month_-_Jeffrey_Kinnear
+Redirect 301 /Manufacturing_Changes_Lives.html http://www.erieit.edu/blog/Manufacturing_Changes_Lives
+Redirect 301 /Soup_Cook_Off_Winners_2014.html http://www.erieit.edu/blog/Soup_Cook_Off_Winners_2014
+Redirect 301 /Women_in_Welding_by_Lincoln_Electric.html http://www.erieit.edu/blog/Women_in_Welding_by_Lincoln_Electric
+Redirect 301 /Dirty_Jobs_Mike_Rowe_on_Alternative_Education_and_the_Skills_Gap.html http://www.erieit.edu/blog/Dirty_Jobs_Mike_Rowe_on_Alternative_Education_and_the_Skills_Gap
+Redirect 301 /February_AWS_Meeting_-_Wyatt_Swaim_Speaking.html http://www.erieit.edu/blog/February_AWS_Meeting_-_Wyatt_Swaim_Speaking
+Redirect 301 /Student_of_the_Month_-_Matt_Hess.html http://www.erieit.edu/blog/Student_of_the_Month_-_Matt_Hess
+Redirect 301 /Money_Tip_-_1-22-14.html http://www.erieit.edu/blog/Money_Tip_-_1-22-14
+Redirect 301 /Arrow_Casing_Field_Trip.html http://www.erieit.edu/blog/Arrow_Casing_Field_Trip
+Redirect 301 /American_Welding_Society_Meeting_Jan_15th.html http://www.erieit.edu/blog/American_Welding_Society_Meeting_Jan_15th
+Redirect 301 /CNC_Success_at_Machining_Concepts.html http://www.erieit.edu/blog/CNC_Success_at_Machining_Concepts
+Redirect 301 /All_Classes_Canceled_Tuesday_1-7-2014_Due_to_Poor_Weather.html http://www.erieit.edu/blog/All_Classes_Canceled_Tuesday_1-7-2014_Due_to_Poor_Weather
+Redirect 301 /Student_of_the_Month_-_Jonathan_Walton http://www.erieit.edu/blog/Student_of_the_Month_-_Jonathan_Walton
+Redirect 301 /Graduate_Spotlight_-_Shaa_Moore.html http://www.erieit.edu/blog/Graduate_Spotlight_-_Shaa_Moore
+Redirect 301 /Purple_Martin_Project.html http://www.erieit.edu/blog/Purple_Martin_Project
+Redirect 301 /Student_of_the_Month_-_Clayton_Moorhouse.html http://www.erieit.edu/blog/Student_of_the_Month_-_Clayton_Moorhouse
+Redirect 301 /Boy_Scouts_Earn_Welding_Merit_Badge_at_EIT.html http://www.erieit.edu/blog/Boy_Scouts_Earn_Welding_Merit_Badge_at_EIT
+Redirect 301 /Student_of_the_Month_-_Jesi_Bartlett.html http://www.erieit.edu/blog/Student_of_the_Month_-_Jesi_Bartlett
+Redirect 301 /Modern_Industries_Scholarship.html http://www.erieit.edu/blog/Modern_Industries_Scholarship
+Redirect 301 /Student_of_the_Month_-_Cody_Fetzeck.html http://www.erieit.edu/blog/Student_of_the_Month_-_Cody_Fetzeck
+Redirect 301 /Graduate_Spotlight_-_Jennifer_Shatto_-_Graphic_Design.html http://www.erieit.edu/blog/Graduate_Spotlight_-_Jennifer_Shatto_-_Graphic_Design
+Redirect 301 /Money_Tip_-_Student_Discounts.html http://www.erieit.edu/blog/Money_Tip_-_Student_Discounts
+Redirect 301 /Desktop_Publishing_Student_Work.html http://www.erieit.edu/blog/Desktop_Publishing_Student_Work
+Redirect 301 /Outstanding_Student_Award_Matthew_Hess.html http://www.erieit.edu/blog/Outstanding_Student_Award_Matthew_Hess
+Redirect 301 /Student_of_The_Month_-_Doug_Frank http://www.erieit.edu/blog/Student_of_The_Month_-_Doug_Frank
+Redirect 301 /Open_House_August_21st_2013.html http://www.erieit.edu/blog/Open_House_August_21st_2013
+Redirect 301 /Bridge_Assignment_-_Welding_Technology.html http://www.erieit.edu/blog/Bridge_Assignment_-_Welding_Technology
+Redirect 301 /PAC_Member_Spotlight_-_Merit_Tool_Company_Inc.html http://www.erieit.edu/blog/PAC_Member_Spotlight_-_Merit_Tool_Company_Inc
+Redirect 301 /3rd_Term_Welding_Student_Exercises.html http://www.erieit.edu/blog/3rd_Term_Welding_Student_Exercises
+Redirect 301 /Faculty_Spotlight_-_Gordon_Luebke.html http://www.erieit.edu/blog/Faculty_Spotlight_-_Gordon_Luebke
+Redirect 301 /Faculty_and_Staff_CPR_Training.html http://www.erieit.edu/blog/Faculty_and_Staff_CPR_Training
+Redirect 301 /Welding_Instructor_Donna_Bastian_Wins_AWS_Award.html http://www.erieit.edu/blog/Welding_Instructor_Donna_Bastian_Wins_AWS_Award
+Redirect 301 /Top_Ten_Interview_Questions.html http://www.erieit.edu/blog/Top_Ten_Interview_Questions
+Redirect 301 /What_You_Need_to_Know_About_Your_Cover_Letter_.html http://www.erieit.edu/blog/What_You_Need_to_Know_About_Your_Cover_Letter_
+
+Redirect 301 /disclosures http://www.erieit.edu/consumer_info
+
+
+
+RedirectMatch 301 (.*)_testimonials\.html$ /training_programs$1
+RedirectMatch 301 (.*)_career_opportunities\.html$ /training_programs$1
+
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|assets|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+
+

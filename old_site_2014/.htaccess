@@ -1,0 +1,29 @@
+
+AddHandler php5-script .php
+
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule testimonials-program-(.*)\.html$ testimonials.php?program=$1
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(.*)\.erieit\.edu$ [NC]
+RewriteRule ^(.*)$ http://www.erieit.edu/$1 [R=301,L]
+
+RewriteEngine On
+RewriteRule ^([^/]*)_career_opportunities\.html$ /career_opportunities.php?program=$1 [L]
+
+RewriteEngine On
+RewriteRule ^([^/]*)_testimonials\.html$ /testimonials.php?program=$1 [L]
+
+RewriteEngine On
+RewriteRule ^([^/]*)\.html$ /blog.php?title=$1 [L]
+
+Redirect 301 /business_office_professional.php http://www.erieit.edu/business_information_management.php
+
+Redirect 301 /business_office_professional_career_opportunities.html http://www.erieit.edu/business_information_management_career_opportunities.html
+
+Redirect 301 /business_office_professional_testimonials.html http://www.erieit.edu/business_information_management.php
+
+Redirect 301 /reachlocal.php http://www.erieit.edu/
+

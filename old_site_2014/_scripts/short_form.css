@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#side_form {
+	z-index:0;
+	float:right;
+position:relative; 
+	
+}
+
+
+
+#contact_form {
+width:220px; 
+float:left; 
+margin-left:12px;
+margin-bottom:10px;
+z-index:0;
+position:relative; 
+}
+
+#contact_form_head {
+width:188px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFF;
+background-color:#CE5C09;
+padding:7px;"
+z-index:0;
+position:relative;  
+}
+
+#form_body {
+width:190px;
+border:thin #CE5C09 solid;
+padding:5px;
+color:#666;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+z-index:0;
+position:relative; 
+}
+#form_body input {
+	font-size:10px;
+}
+
+
+#submit_application {
+	background-image: url(../_images/req_info.png);
+	background-repeat:no-repeat;
+	width:180px;
+	height:35px;
+	cursor:pointer;
+	overflow:hidden;
+	z-index:0;
+position:relative;  
+color:;
+}
+#submit_application:hover {
+	background-image: url(../_images/req_info.png);
+	background-repeat:no-repeat;
+	width:180px;
+	height:35px;
+	cursor:pointer;
+	overflow:hidden;
+	background-position: 0px -35px;
+	z-index:0;
+position:relative;
+color:;
+}

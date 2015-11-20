@@ -1,0 +1,17 @@
+<span style="font-size:18px; font-weight:bold; color:#039; line-height:25px; ">Overview of EIT</span>
+<br>
+<br>
+EIT is dedicated to developing the individual abilities of each student by providing them with the necessary skills and supporting knowledge to meet the entry-level job requirements for computer, electronics, manufacturing, and technology careers. In order to achieve this, programs at EIT provide students with a combination of practical laboratory training and classroom instruction. EIT then offers placement assistance to aid its graduates in locating gainful employment.<br><br>
+Consider these benefits of EIT:
+<ul>
+<li>Focused electronics, computer, and advanced manufacturing curricula</li>
+<br />
+<li>Practical hands-on laboratory training along with classroom instruction</li>
+<br />
+<li>Learn from instructors who have years of industry experience in their fields</li>
+<br />
+<li>Job placement assistance and preparation for tomorrow's job market</li>
+<br />
+<li>Financial Aid available to those who qualify</li>
+</ul>
+If you would like to move forward in your career or get the education necessary to begin a new one, contact us today.

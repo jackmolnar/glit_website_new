@@ -1,0 +1,13 @@
+<span style="font-size:18px; font-weight:bold; color:#039; line-height:25px; ">Welding Technology Program Overview</span>
+<br>
+<br>
+The Welding Technology training program at EIT is a hands-on training program in which students learn many aspects of welding.
+<br /><br />
+Students learn Gas Metal Arc Welding, Gas Tungsten Arc Welding, Gas Metal Arc Welding of Pipe, and Gas Tungsten Arc Welding of Pipe. Students also learn blueprint reading, welding codes and procedures, and structural steel detailing. Near the end of the program students complete a fabrication project.
+<br /><br />
+In the Welding Technology program at EIT you will:
+  <ul>
+  <li>Learn welding processes from the beginner to the advanced level</li><br />
+  <li>Train on Lincoln Electric welding equipment</li><br />
+  <li>Get hands-on training in 1 of our 15 welding booths</li>
+  </ul>

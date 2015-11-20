@@ -1,0 +1,1 @@
+<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.erieit.edu/welding_technology.php">

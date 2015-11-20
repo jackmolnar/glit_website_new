@@ -1,0 +1,28 @@
+<span style="font-size:18px; font-weight:bold; color:#039; line-height:25px; ">Testimonials</span>
+<br/>
+
+<div class="testimonial_photo"><img src="images/testimonials/patrick_kilgallon.jpg" width="155" height="202" alt="Patrick Kilgallon" /></div>
+<div class="testimonial_text">
+<span style="font-weight:bold;">
+Patrick Kilgallon<br />
+Technology Service Manager<br />
+Erie Times News<br />
+</span>
+<br />
+"In filling any position I look for someone who has a fundamental knowledge of the skills needed. EIT students are getting the necessary training I need and when hired become more productive in a shorter timeframe."
+</div>
+
+
+<div class="testimonial_photo" style="margin-top:20px;"><img src="images/testimonials/chris_norris.jpg" width="155" height="202" alt="Chris Norris" /></div>
+<div class="testimonial_text" style="margin-top:20px;>
+<span style="font-weight:bold;">
+Chris Norris<br />
+Director of Entertainment<br />
+Erie Seawolves<br />
+</span>
+<br />
+"The EIT student working with us always put forth maximum effort in every project assigned. Both the student and the student's work ethic exemplified the professionalism portrayed by EIT and their program."
+</div>
+
+<br>
+

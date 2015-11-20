@@ -1,0 +1,135 @@
+@media (min-width: 0px) {
+	
+	.programs_intro{
+		padding-bottom:0px;
+	}
+	
+	.icon_row{
+		padding-top:0px;
+		padding-bottom:50px;
+	}
+	
+	.computer_i{
+		background-position: 0px 0px;
+	}
+	.electronics_i{
+		background-position:-183px 0px;
+	}
+	.manufacturing_i{
+		background-position:-366px 0px;
+	}
+	.skilled_trades_i{
+		background-position:-549px 0px;
+	}
+	.program_icon{
+		width: 182px;
+		height: 175px;
+		background-image: url(../images/icons2.jpg?1);
+		overflow: hidden;
+		display: block;
+		margin: auto auto;
+	}
+	
+	.reveal_button{
+		height: auto;
+		overflow: visible;
+		border-bottom:#9C9C9C thin solid;
+	}
+	
+	.reveal_button .front{
+		background-color: transparent;
+		color:#036;
+		padding: 5px;
+		border-radius: 10px;
+		position:inherit;
+		z-index:3;
+		min-height:inherit;
+		top: auto;
+		width: auto;
+		
+		-webkit-transition-property: none;
+	}
+	
+	.icon_header{
+		margin-top:10px;
+		color:#036;
+		font-size:24px;
+	}
+	
+	.reveal_button .front ul{
+		padding: 10px;
+		list-style: none;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	
+	.reveal_button .front ul li a{
+		color:#036;
+	}
+	
+	.news_row{
+		padding-top:40px;
+		padding-bottom:50px;
+	}
+ 
+}
+
+@media (min-width: 769px) {
+	.programs_intro{
+		padding-bottom:30px;
+	}
+	.icon_row{
+		padding-top:60px;
+		padding-bottom:110px;
+	}
+	
+	.eit_summary{
+		padding-top:100px;
+		padding-bottom:100px;
+		background-image:url(../images/manufacturing_shop_back.jpg);
+	}
+	
+	.news_row{
+		padding-top:80px;
+		padding-bottom:50px;
+	}
+	.icon_header{
+		margin-top:10px;
+		color:#fff;
+		font-size:24px;
+	}
+	.reveal_button{
+		height: 255px;
+		overflow:hidden;
+		border-bottom:#9C9C9C thin solid;
+	}
+	
+	.reveal_button .front{
+		background-color:#036;
+		color:#fff;
+		padding: 5px;
+		border-radius: 10px;
+		position:absolute;
+		z-index:3;
+		min-height:300px;
+		top:175px;
+		width: 215px;
+		
+		-webkit-transition-property: top;
+		-webkit-transition-duration: .5s;
+	
+	}
+	
+	.reveal_button .front ul li a{
+		color:#6FF;
+	}
+	.reveal_button .front ul li a:hover{
+		color:#428bca;
+	}
+	
+	.reveal_button:hover .front{
+		top:0px;
+	}
+}
+

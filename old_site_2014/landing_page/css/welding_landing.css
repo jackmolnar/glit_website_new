@@ -1,0 +1,303 @@
+#wrapper {
+	width: 765px;
+	padding-left:5px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#FFF;
+	height: 1090px;
+}
+#wrapper #contact_info {
+	font-family: "Arial Black", Gadget, sans-serif;
+	float: left;
+	margin-left: 290px;
+	color: #036;
+}
+#wrapper #line {
+	background-repeat: repeat-x;
+	float: left;
+	width: 760px;
+	background-image:url(../images/line.gif);
+	height: 26px;
+}
+#navigation {
+	width:757px;
+	height:37px;
+	position:relative;
+	float:left;
+	margin-top: -10px;
+}
+#navigation ul{
+	list-style-type: none;
+	position: relative;
+	clear: both;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#navigation ul li {
+	float:left;
+	width:178px;
+	background-color:#060;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align: center;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	margin-right: 1px;
+	left: -50px;
+	
+}
+
+#wrapper #navigation ul #welding_links {
+	width:178px;
+	background-color:#036;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align: center;
+	margin-top:-20px;
+	margin-left:-5px;
+	display:none;
+	font-weight: bold;
+	zindex:100;	
+}
+
+#wrapper #navigation ul #welding_links li a ,  #wrapper #navigation ul #welding_links li a:visited {
+
+	background-color:#036;
+
+
+}
+
+#wrapper #navigation ul #welding_links li a:hover {
+	background-color:#060;
+
+
+}
+
+
+#navigation ul #welding_info, #navigation ul #eit_info, #navigation ul #admissions_info, #navigation ul #testimonial_info {
+	cursor:pointer;
+}
+
+
+
+
+#wrapper #main_image {
+	background-image: url(../images/main_image.jpg);
+	float: left;
+	height: 193px;
+	width: 757px;
+}
+#wrapper #main_image #main_text {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-left: 400px;
+	padding-right: 15px;
+	margin-top: 40px;
+}
+#wrapper #form_side {
+	background-image: url(../images/form_back_2.jpg);
+	float: left;
+	width: 380px;
+	margin-top: 10px;
+	height: 582px;
+	background-repeat: no-repeat;
+}
+#wrapper #form_side #the_form {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	height: 510px;
+	width: 374px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	background-color: #FFF;
+}
+#wrapper #form_side #the_form #button_style {
+	background-color: #FFF;
+	background-image: url(../images/logo.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+#wrapper #right_side {
+	float: left;
+	height: 650px;
+	width: 362px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+
+
+#wrapper #right_side #testimonial1, #testimonial2, #testimonial3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#039;
+	cursor:pointer;
+	text-align:center;
+}
+#wrapper #right_side #testimonial_box1, #testimonial_box2, #testimonial_box3 {
+	background-color: #FFF;
+	display: none;
+	height: auto;
+	width: 350px;
+	z-index: 5;
+	left: 700px;
+	top: 500px;
+	position:absolute;
+	border: thick solid #333;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+
+}
+#wrapper #right_side .testimonial_container {
+	height: 330px;
+	width: 330px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#wrapper #right_side #testimonial_box1 #testimonial1_close, #testimonial2_close, #testimonial3_close {
+	cursor:pointer;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:10px;
+	color: #666;
+	display: block;
+	height: 20px;
+	width: 50px;
+	margin-left:300px;
+}
+
+#wrapper #right_side .testimonial_photo {
+	width: 160px;
+	float:left;
+	margin-top: 15px;
+}
+#wrapper #right_side .testimonial_text {
+	width: 200px;
+	float:left;
+	margin-top: 15px;
+}
+
+
+
+#wrapper #form_side #the_form #submit_button {
+	background-image: url(../images/learn_more_button.jpg);
+	height: 37px;
+	width: 162px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #063;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+#wrapper #phone_text{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	margin-top:3px;
+	margin-left:78px;
+}
+
+#wrapper #req_text{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	margin-top:12px;
+	margin-left:16px;
+}
+
+#wrapper #bottom {
+	float: left;
+	background-image: url(../images/bottom_background.jpg);
+	height: 87px;
+	width: 760px;
+	margin-top: -8px;
+}
+
+#wrapper #bottom #bottom_text {
+	float: left;
+	height: 70px;
+	width: 760px;
+	margin-top: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+}
+
+#wrapper #form_side #the_form td input {
+	font-size: 12px;
+	color: #333;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+a:visited {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+a:hover {
+	color:#FFF;
+	text-decoration:underline;
+	
+}
+
+#wrapper #logo {
+	float: left;
+}
+#disclaimer {
+	font-size:9px;
+}
+
+
+#headline_background {
+	background-color:#000;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.5;
+	opacity: 0.7;
+	width: 360px;
+	height:140px;
+	z-index:6;
+	position:relative;
+	top:150px;
+	left:390px;
+}
+
+#headline {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#FFF;
+	z-index:7;
+	position:relative;
+	top:-925px;
+	left:405px;
+	width: 345px;
+}

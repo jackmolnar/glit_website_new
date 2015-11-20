@@ -1,0 +1,499 @@
+body{
+	background-color:#f7f7f7; 
+	padding: 0px;
+	margin: 0px;
+	font-size:90%;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-x;
+}
+img{
+	border:none;
+}
+input, select, textarea{
+	margin: 5px;
+}
+textarea{
+	width:100%;
+}
+/*************************************************************************************
+BASIC LINKS
+*************************************************************************************/
+a:link{
+	color:#5F7B9B;
+}
+a:visited{
+	color:#5F7B9B;
+}
+a:hover{
+	color:#44586F;
+}
+a:active{
+	color:#44586F;
+}
+/******************************************************************************
+CONTAINERS
+******************************************************************************/
+#center{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top, #menu, #page, #bottom{
+  padding:0px;
+  margin:0px;
+}
+/******************************************************************************
+BOXES
+******************************************************************************/
+#top_box{
+	color:#eeeeee;
+	font-weight: bold;
+	font-size:90%;
+	height:60px;
+	background-color:#000000;
+}
+#user_box{
+	background-color:inherit;
+	color:#EEEEEE;
+	margin:0px;
+}
+#page_box{
+	color:#333333;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#content_box{
+	background-color:#6398ce;
+	color:#333333;
+}
+#bottom_box{
+	background-color:#6398ce; 
+	color:#eeeeee;
+	font-size:80%;
+}
+/******************************************************************************
+OTHER
+******************************************************************************/
+#error{
+	background-color:#FF0000;
+	color: #eeeeee;
+	font-weight: bold;
+	font-size:90%;
+	font-style: italic;
+	padding:5px;
+}
+#content{
+	padding:5px;
+	margin: 0px;
+}
+#content h1{
+  padding:0px;
+  margin:0px;
+  font-size:120%;
+}
+#content h2{
+  padding:0px;
+  margin:0px;
+  font-size:100%;
+}
+#content p{
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+#content th{
+	font-size:90%;
+	color:#333333;
+	margin: 0px;
+	padding: 2px;
+}
+#content td{
+	font-size:90%;
+	margin: 0px;
+	padding: 2px;
+}
+.odd { 
+  	background: #f2f2f2; 
+}
+.even { 
+  	background: #e7e7e7; 
+}
+.over { 
+  	background: #dbdbc4; 
+}
+.validation-failed {
+	border: 1px solid #f00;
+}
+.validation-passed {
+	border: 1px solid green;
+}
+.validation-advice {
+	margin: 2px; 
+	padding: 2px; 
+	color:#fff; 
+	background-color:#f00;
+}
+.form_inline{
+  display:inline;
+}
+/******************************************************************************
+MENU
+******************************************************************************/
+#user_box #buttons1{
+	background-color:#444444;
+	font-size:90%;
+	position:relative;
+	z-index:0px;
+}
+#user_box #buttons1 ul{
+	margin:0px;
+	padding: 2px;
+}
+#user_box #buttons1 li{
+	display:inline;
+	margin:4px;
+	padding: 8px;
+	list-style-type:none;
+}
+#user_box #buttons1 a:link, #user_box #buttons1 a:visited{
+	color: #EFEFEF;
+	text-decoration: none;
+	font-weight:bold;
+}
+#user_box #buttons1 a:hover{
+	color: #ffA200;
+	text-decoration: none;
+	font-weight:bold;
+}
+#buttons{
+	background-color:#323232;
+	margin:0px;
+	padding:0px;
+}
+#user_box #buttons ul{
+	margin:0px;
+	padding: 6px;
+}
+#user_box #buttons li{
+	list-style-type:none;
+	display:inline;
+	margin:4px;
+	padding: 8px;
+}
+#user_box #buttons .active_module{
+	list-style-type:none;
+	background-color: #6398ce;
+}
+#user_box #buttons .select_module{
+	list-style-type:none;
+	background-color: #CC6600;
+	font-style:italic;
+}
+#user_box #buttons a:link, #user_box #buttons a:visited{
+	color: #EFEFEF;
+	text-decoration: none;
+	font-weight:bold;
+}
+#user_box #buttons a:hover{
+	color: #ffA200;
+	text-decoration: none;
+	font-weight:bold;
+}
+#subbuttons{
+	background-color:#6398ce;
+	font-size:90%;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	z-index:1;
+}
+#user_box #subbuttons ul{
+	padding-left:40px;
+	padding-top:7px;
+	padding-bottom:3px;
+	padding-right:0;
+	margin:0;
+}
+#user_box #subbuttons li{
+	list-style-type:none;
+	display:inline;
+	margin:4px;
+	padding: 2px;
+}
+#user_box #subbuttons a:link, #user_box #subbuttons a:visited{
+	color: #eeeeee;
+	text-decoration: none;
+	font-weight:bold;
+}
+#user_box #subbuttons a:hover{
+	color: #222222;
+	text-decoration: none;
+	font-weight:bold;
+}
+#user_box #subbuttons .active_module{
+	background-color: #336AA2;
+}
+#user_box #subbuttons .select_module{
+	background-color: #CC6600;
+	font-size:90%;
+	font-style:italic;
+	font-weight:bold;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+/******************************************************************************
+FORMS
+******************************************************************************/
+#forms{
+	background-color:#ededed;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding:0px
+}
+#forms th{
+	font-size:90%;
+	color:#777777;
+	margin: 5px;
+	padding: 5px;
+	background-color:#DBDBC4;
+	text-align:left;
+}
+#forms td{
+	font-size:90%;
+	margin: 5px;
+	padding: 5px;
+	vertical-align:top;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #DBDBC4;
+	border-right-color: #DBDBC4;
+	border-bottom-color: #DBDBC4;
+	border-left-color: #DBDBC4;
+}
+/******************************************************************************
+RECORDS
+******************************************************************************/
+#records{
+	background-color:#ededed;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding:0px
+}
+#records table{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+#records th{
+	font-size:90%;
+	color:#eeeeee;
+	margin: 0px;
+	padding: 3px;
+	background-color:#6398ce;
+	vertical-align:top;
+}
+#records td{
+	font-size:90%;
+	margin: 2px;
+	padding: 5px;
+	vertical-align:top;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #DDDDDD;
+	border-right-color: #DDDDDD;
+	border-bottom-color: #DDDDDD;
+	border-left-color: #DDDDDD;
+}
+#records .record_head{
+	background-color:#ededed;
+	color: #555555;
+	font-size:110%;
+	text-align:left;
+}
+#records .notice_record_head{
+	background-color:#C99C7E;
+	color: #eeeeee;
+	font-size:110%;
+	text-align:center;
+}
+#records .record_footer{
+	background-color:#ededed;
+	color: #555555;
+	font-size:80%;
+	text-align:right;
+	font-weight:normal;
+}
+#records .footer_head{
+	font-size:90%;
+	color:#333333;
+	margin: 0px;
+	padding: 3px;
+	vertical-align:middle;
+	background-color:#DAE4DD;
+}
+/******************************************************************************
+TOOLTIPS
+******************************************************************************/
+.toolTipElement {
+	cursor: help;
+}
+
+.tool-tip {
+	color: #fff;
+	width: 172px;
+	z-index: 13000;
+}
+.tool-title {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0;
+	background: url(../images/bubble.png) top left;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+}
+
+.tool-text {
+	font-size: 11px;
+	background: url(../images/bubble.png) bottom right;
+	padding-top: 1px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+}
+/*********************************************************************************************************
+CALANDER
+*********************************************************************************************************/
+input.DatePicker{
+	display: block;
+	width: 150px;
+	padding: 3px 3px 3px 24px;
+	border: 1px solid #999999;
+	font-size: 13px;
+	background: #fff url(../images/date.gif) no-repeat top left;
+	cursor: pointer;
+}
+input:focus.DatePicker{
+	background: #fffce9 url(../images/datefocus.gif) no-repeat top left;
+}
+.dp_container{
+	margin: 5px;
+	position: relative;
+	padding: 0;
+	z-index: 500;
+}
+.dp_cal{
+	background-color: #fff;
+	border: 1px solid #999999;
+	position: absolute;
+	width: 177px;
+	top: 24px;
+	left: 0;
+	margin: 0px 0px 3px 0px;
+}
+.dp_cal table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.dp_cal select{
+	margin: 2px 3px;
+	font-size: 11px;
+}
+.dp_cal select option{
+	padding: 1px 3px;
+}
+.dp_cal th,
+.dp_cal td{
+	width: 14.2857%;
+	text-align: center;
+	font-size: 11px;
+	padding: 2px 0;
+}
+.dp_cal th{
+	color: #797774;
+	background: #daf2e6;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+.dp_cal td{
+	cursor: pointer;
+}
+.dp_cal thead th{
+	background-color: #d9eefc;
+}
+.dp_cal td.dp_roll{
+	color: #000;
+	background-color: #fff6bf;
+}
+/* must have this for the IE6 select box hiding */
+.dp_hide{
+	visibility: hidden;
+}
+.dp_empty{
+	background: #eee;
+}
+.dp_today{
+	background: #daf2e6;
+}
+.dp_selected{
+	color: #fff;
+	background: #6398ce;
+}
+/******************************************************************************
+ABOUT
+******************************************************************************/
+#about ul{
+
+}
+#about li{
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+	font-size:110%;
+}
+#about li p{
+	font-weight:normal;
+	margin:0px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-size:90%;
+}

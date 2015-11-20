@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="array_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889275720100" remote="130337953800000000" Dst="2" />
+<file name="captcha_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889275780106" remote="130337953800000000" Dst="2" />
+<file name="cookie_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889275850113" remote="130337953800000000" Dst="2" />
+<file name="directory_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889281660694" remote="130337953800000000" Dst="2" />
+<file name="date_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889281720700" remote="130337953800000000" Dst="2" />
+<file name="download_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889281760704" remote="130337953800000000" Dst="2" />
+<file name="email_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889287691297" remote="130337953800000000" Dst="2" />
+<file name="file_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889287801308" remote="130337953800000000" Dst="2" />
+<file name="form_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889288691397" remote="130337953800000000" Dst="2" />
+<file name="index.html" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889293841912" remote="130337953800000000" Dst="2" />
+<file name="html_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889293901918" remote="130337953800000000" Dst="2" />
+<file name="inflector_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889293941922" remote="130337953800000000" Dst="2" />
+<file name="language_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889299822510" remote="130337953800000000" Dst="2" />
+<file name="number_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889299862514" remote="130337953800000000" Dst="2" />
+<file name="path_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889299932521" remote="130337953800000000" Dst="2" />
+<file name="smiley_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889305743102" remote="130337953800000000" Dst="2" />
+<file name="security_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889305823110" remote="130337953800000000" Dst="2" />
+<file name="string_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889305903118" remote="130337953800000000" Dst="2" />
+<file name="typography_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889311663694" remote="130337953800000000" Dst="2" />
+<file name="text_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889311743702" remote="130337953800000000" Dst="2" />
+<file name="url_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889311803708" remote="130337953800000000" Dst="2" />
+<file name="xml_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/newsite/CI_eit_website/" local="130437889317604288" remote="130337953800000000" Dst="2" />
+<file name="array_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889275720100" remote="130439385000000000" Dst="2" />
+<file name="captcha_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889275780106" remote="130439385000000000" Dst="2" />
+<file name="cookie_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889275850113" remote="130439385000000000" Dst="2" />
+<file name="date_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889281720700" remote="130439385000000000" Dst="2" />
+<file name="directory_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889281660694" remote="130439385000000000" Dst="2" />
+<file name="download_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889281760704" remote="130439385000000000" Dst="2" />
+<file name="email_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889287691297" remote="130439385000000000" Dst="2" />
+<file name="file_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889287801308" remote="130439385000000000" Dst="2" />
+<file name="form_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889288691397" remote="130439385000000000" Dst="2" />
+<file name="html_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889293901918" remote="130439385000000000" Dst="2" />
+<file name="index.html" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889293841912" remote="130439385000000000" Dst="2" />
+<file name="language_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889299822510" remote="130439385000000000" Dst="2" />
+<file name="inflector_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889293941922" remote="130439385000000000" Dst="2" />
+<file name="number_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889299862514" remote="130439385000000000" Dst="2" />
+<file name="security_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889305823110" remote="130439385000000000" Dst="2" />
+<file name="path_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889299932521" remote="130439385000000000" Dst="2" />
+<file name="smiley_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889305743102" remote="130439385000000000" Dst="2" />
+<file name="text_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889311743702" remote="130439385000000000" Dst="2" />
+<file name="string_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889305903118" remote="130439385000000000" Dst="2" />
+<file name="typography_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889311663694" remote="130439385000000000" Dst="2" />
+<file name="xml_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889317604288" remote="130439385000000000" Dst="2" />
+<file name="url_helper.php" server="ftp.toniguy-erie.org/domains/erieit.edu/html/" local="130437889311803708" remote="130439385000000000" Dst="2" />
+</dwsync>

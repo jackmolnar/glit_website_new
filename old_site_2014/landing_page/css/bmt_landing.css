@@ -1,0 +1,494 @@
+#wrapper {
+		
+	width: 765px;
+	display:table;
+	padding-left:5px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#FFF;
+
+}
+#wrapper #contact_info {
+	font-family: "Arial Black", Gadget, sans-serif;
+	float: left;
+	margin-left: 290px;
+	color: #036;
+}
+#wrapper #line {
+	background-repeat: repeat-x;
+	float: left;
+	width: 760px;
+	background-image:url(../images/line.gif);
+	height: 26px;
+}
+#navigation {
+	width:757px;
+	height:50px;
+	position:relative;
+	float:left;
+	margin-top: -10px;
+}
+#navigation ul{
+	list-style-type: none;
+	position: relative;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#navigation ul li {
+	float: left;
+width: 236px;
+background-color: #060;
+color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-align: center;
+display: block;
+padding: 7px;
+font-weight: bold;
+margin-right: 2px;
+left: -50px;
+	
+}
+
+
+#navigation ul #bmt_info, #navigation ul #eit_info, #navigation ul #admissions_info, #navigation ul #erie_info {
+	cursor:pointer;
+}
+#navigation ul #bmt_info:hover, #navigation ul #eit_info:hover, #navigation ul #admissions_info:hover, #navigation ul #erie_info:hover {
+	background-color:#036;
+}
+
+
+
+
+#wrapper #main_image {
+	background-image: url(../images/main_image.jpg);
+	float: left;
+	height: 193px;
+	width: 757px;
+}
+#wrapper #main_image #main_text {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-left: 400px;
+	padding-right: 15px;
+	margin-top: 40px;
+}
+#wrapper #form_side {
+	background-image: url(../images/form_back_2.jpg);
+	float: left;
+	width: 190px;
+	margin-top: 10px;
+	display:table;
+	background-repeat: no-repeat;
+	padding-bottom:8px;
+}
+#wrapper #form_side #the_form {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	display:table;
+	width: 180px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	background-color: #FFF;
+	padding-bottom:10px;
+}
+#wrapper #form_side #the_form input {
+	width:95%;
+}
+#wrapper #form_side #the_form #button_style {
+	background-color: #FFF;
+	background-image: url(../images/logo.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+#wrapper #right_side {
+	float: left;
+	display:table;
+	width: 550px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+
+
+#wrapper #right_side #testimonial1, #testimonial2, #testimonial3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#039;
+	cursor:pointer;
+	text-align:center;
+}
+#wrapper #right_side #testimonial_box1, #testimonial_box2, #testimonial_box3 {
+	background-color: #FFF;
+	display: none;
+	height: auto;
+	width: 350px;
+	z-index: 5;
+	left: 700px;
+	top: 500px;
+	position:absolute;
+	border: thick solid #333;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+
+}
+#wrapper #right_side .testimonial_container {
+	height: 330px;
+	width: 330px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#wrapper #right_side #testimonial_box1 #testimonial1_close, #testimonial2_close, #testimonial3_close {
+	cursor:pointer;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:10px;
+	color: #666;
+	display: block;
+	height: 20px;
+	width: 50px;
+	margin-left:300px;
+}
+
+#wrapper #right_side .testimonial_photo {
+	width: 160px;
+	float:left;
+	margin-top: 15px;
+}
+#wrapper #right_side .testimonial_text {
+	width: 200px;
+	float:left;
+	margin-top: 15px;
+}
+
+
+
+#wrapper #form_side #the_form #submit_button {
+	background-image: url(../images/learn_more_button.jpg);
+	height: 37px;
+	width: 162px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #063;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+#wrapper #phone_text{
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 14px;
+color: #FFF;
+margin-top: 6px;
+margin-left: 4px;
+}
+
+#wrapper #req_text{
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+color: #FFF;
+margin-top: 12px;
+text-align: center;
+}
+
+#wrapper #bottom {
+	float: left;
+	background-image: url(../images/bottom_background.jpg);
+	height: 87px;
+	width: 760px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+#wrapper #bottom #bottom_text {
+	float: left;
+	height: 70px;
+	width: 760px;
+	margin-top: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+}
+
+#wrapper #form_side #the_form td input {
+	font-size: 12px;
+	color: #333;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+a:visited {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+a:hover {
+	color:#FFF;
+	text-decoration:underline;
+	
+}
+
+#wrapper #logo {
+	float: left;
+}
+#disclaimer {
+	font-size:9px;
+}
+
+#slider {
+	width: 757px;
+	height: 375px;
+	display: block;
+	background-image: url(../images/bmt_head_image.jpg);
+	background-color: #09C;
+	float:left;
+	position:relative;
+	z-index:2;
+}
+
+
+#headline_background {
+	background-color:#fff;
+	filter: alpha(opacity=95);
+	-moz-opacity:0.95;
+	opacity: 0.95;
+	width: 370px;
+	height:246px;
+	z-index:5;
+	position:relative;
+	top:75px;
+	left:375px;
+}
+
+#headline {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color: #333;
+z-index: 7;
+position: absolute;
+top: 215px;
+left: 50.2%;
+width: 355px;
+line-height:150%;
+}
+
+#headline_shadow {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color:#fff;
+z-index: 6;
+position: absolute;
+top: 178px;
+left: 50.3%;
+width: 355px;
+line-height:150%;
+}
+
+
+#vt_side, #test_side {
+	float:left;
+	width:260px;
+	background-color:#CFC;
+	text-align:center;
+	margin-right:10px;
+	margin-left:5px;
+	padding-bottom:10px;
+	padding-top:3px;
+}
+
+#vt_thumb {
+	width: 210px;
+	height: 127px;
+	background-image: url(../images/bmt_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+	left:50%;
+	margin:auto;
+
+}
+#vt_dialog {
+	padding-bottom:25px;
+}
+#vt_thumb:hover{
+	width: 210px;
+	height: 127px;
+	background-image: url(../images/bmt_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -127px;
+	cursor:pointer;	
+}
+
+#test_thumb {
+	width: 210px;
+	height: 127px;
+	background-image: url(../images/bmt_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: -210px 0px;
+	cursor: pointer;
+	left:50%;
+	margin:auto;
+
+}
+#test_thumb:hover{
+	width: 210px;
+	height: 127px;
+	background-image: url(../images/bmt_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: -210px -127px;
+	cursor:pointer;	
+}
+#grad_thumbs {
+	margin:auto;
+	width:452px;
+}
+#mike_northrop {
+	width: 221px;
+height: 125px;
+background-image: url(../images/test_video_thumbs.jpg);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+cursor: pointer;
+float: left;
+}
+#mike_northrop:hover {
+	width: 221px;
+	height: 125px;
+	background-image: url(../images/test_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -125px;
+	cursor: pointer;
+}
+#dale_moffet {
+	width: 221px;
+height: 125px;
+background-image: url(../images/test_video_thumbs.jpg);
+background-repeat: no-repeat;
+background-position: -221px 0px;
+cursor: pointer;
+float: left;
+margin-right:10px;
+}
+#dale_moffet:hover {
+	width: 221px;
+	height: 125px;
+	background-image: url(../images/test_video_thumbs.jpg);
+	background-repeat: no-repeat;
+	background-position: -221px -125px;
+	cursor: pointer;
+	float: left;
+}
+#accreditation {
+	margin:auto;
+	text-align:center;
+	width:300px;
+	margin-top:5px;
+	padding:10px;
+	background-color:#CFC;
+}
+
+
+
+/* jqModal base Styling courtesy of;
+  Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+  the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+  can change this value by either;
+    a) supplying one via CSS
+    b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+  
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+	padding-bottom:10px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+@media screen and (max-device-width: 568px) {
+	#headline_background {
+	background-color:#000;
+	filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity: 0.85;
+	width: 360px;
+	height:275px;
+	z-index:5;
+	position:relative;
+	top:35px;
+	left:390px;
+}
+#headline {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color: #FFF;
+z-index: 7;
+position: absolute;
+top: 175px;
+left: 52%;
+width: 345px;
+line-height:150%;
+}
+
+#headline_shadow {
+	opacity: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+color:#000;
+z-index: 6;
+position: absolute;
+top: 178px;
+left: 52.1%;
+width: 345px;
+line-height:150%;
+}
+	
+}
